@@ -1,0 +1,41 @@
+.start-test {
+  width: 500px;
+}
+
+.start-test-top {
+  padding: 20px;
+  background: #2b275d;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px 15px 0 0;
+}
+
+.start-test-top p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.start-test-top p:nth-of-type(1) {
+  font-size: 14px;
+  color: #a2a2a2;
+}
+
+/*  */
+/*  */
+.start-test-bottom {
+  padding: 20px 0;
+  background: rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: center;
+  border-radius: 0 0 15px 15px;
+}
+
+.start-test-bottom a {
+  text-decoration: none;
+  padding: 10px 100px;
+  background: #158e8c;
+  color: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+}
