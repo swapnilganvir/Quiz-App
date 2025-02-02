@@ -14,6 +14,7 @@
       <a href="#about-the-project">About The Project</a>
     </li>
     <li><a href="#tech-stack">Tech Stack</a></li>
+    <li><a href="#core-features">Core Features</a></li>
     <li><a href="#conclusion">Conclusion</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
@@ -22,21 +23,38 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-This project involves building a secure and scalable RESTful API for managing IMF's(The Impossible Missions Force) gadget inventory using Node.js, Express, and PostgreSQL. The API allows users to retrieve gadget data, add and update gadgets, mark gadgets as decommissioned, and trigger self-destruct sequences. Security and data integrity are prioritized with robust JWT-based authentication and filtering features.
+This project involves developing a web-based quiz application that fetches quiz data from an external API and presents it through an engaging, gamified user interface. Users can start the quiz, answer multiple-choice questions, and view a summary of their results, including the total points scored. The focus is on a clean, intuitive design and a smooth user experience.
 
 <b>Note: To use the demo please wait 1-2 minutes after opening the link, because the server gets down due to inactivity.</b>
 
 
 <!-- Tech Stack -->
 ## Tech Stack
-  * <b>Frontend</b>: React.js 
+  * <b>Frontend</b>: React.js
+  * <b>State Management</b>: React Context (for managing quiz state)
   * <b>Deployment</b>: Render (backend)
   * <b>Version Control</b>: Git and GitHub
 
 
+<!-- Core Features -->
+### Core Features
+1. #### Start Quiz
+    * A landing page with a "Start Quiz" button.
+    * When clicked, fetches quiz data from the API and begins the quiz flow.
+
+2. #### Quiz Flow
+    * Display one question at a time with multiple-choice options.
+    * Allow users to select an answer and move to the next question.
+    * Provide visual feedback for correct/incorrect answers.
+
+3. #### Result Summary
+    * Display the total points scored.
+    * Show a detailed summary of the user's responses (correct/incorrect).
+
+
 <!-- Conclusion -->
 ## Conclusion
-This project demonstrates strong backend development skills, including API design, database management, and secure API implementation using JWT. It showcases my ability to build a scalable and secure backend service while adhering to best practices.
+This project demonstrates strong front-end development skills, including API integration, state management, and gamified user experiences. The clean, intuitive design and gamification elements highlight my creativity and technical competence.
 
 
 <!-- CONTACT -->
