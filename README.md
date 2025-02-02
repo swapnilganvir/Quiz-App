@@ -41,15 +41,18 @@ This project involves developing a web-based quiz application that fetches quiz 
 1. #### Start Quiz
     * A landing page with a "Start Quiz" button.
     * When clicked, fetches quiz data from the API and begins the quiz flow.
+    * <img width="500" src="https://github.com/user-attachments/assets/ace81d90-8c7a-49e2-9540-3f4d8f0ec643">
 
 2. #### Quiz Flow
     * Display one question at a time with multiple-choice options.
     * Allow users to select an answer and move to the next question.
     * Provide visual feedback for correct/incorrect answers.
+    * <img width="500" src="https://github.com/user-attachments/assets/bc06a19e-ab6c-4bfc-b505-71e32e85b3cb"> <img width="500" src="https://github.com/user-attachments/assets/33b2a4c0-212b-491e-9f50-5f99969542e2">
 
 3. #### Result Summary
     * Display the total points scored.
     * Show a detailed summary of the user's responses (correct/incorrect).
+    * <img width="500" src="https://github.com/user-attachments/assets/9df1c526-9cfe-4f63-85aa-b1120c970f02">
 
 
 <!-- Conclusion -->
