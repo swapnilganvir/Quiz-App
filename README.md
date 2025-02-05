@@ -25,8 +25,6 @@
 ## About The Project
 This project involves developing a web-based quiz application that fetches quiz data from an external API and presents it through an engaging, gamified user interface. Users can start the quiz, answer multiple-choice questions, and view a summary of their results, including the total points scored. The focus is on a clean, intuitive design and a smooth user experience.
 
-<b>Note: To use the demo please wait 1-2 minutes after opening the link, because the server gets down due to inactivity.</b>
-
 
 <!-- Tech Stack -->
 ## Tech Stack
