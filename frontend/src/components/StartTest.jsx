@@ -8,7 +8,7 @@ const StartTest = ({ data, setScreen }) => {
       <div className="start-test-top">
         <p>Duration {data.duration} min</p>
         <p>{data.title}</p>
-        <p>{data.topic} </p>
+        <p>Contains total {data.questions_count} questions</p>
       </div>
       <div className="start-test-bottom" onClick={() => setScreen(2)}>
         <a>Start Test</a>

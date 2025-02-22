@@ -73,7 +73,7 @@ const Result = ({ resultData }) => {
             <p className="questions">Incorrect: {resultData.incorrect}</p>
           </div>
         </div>
-        <p>&copy; 2024 Testline. All right reserved</p>
+        <p>&copy; 2025 Swapnil. All right reserved</p>
       </div>
     </div>
   );

@@ -17,12 +17,7 @@ const App = () => {
   });
   const [data, setData] = useState({
     title: '',
-    topic: '',
     duration: 10,
-    negative_marks: 0,
-    correct_answer_marks: 0,
-    shuffle: false,
-    show_answers: false,
     questions_count: 0,
     questions: [],
   });

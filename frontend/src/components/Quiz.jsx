@@ -17,16 +17,6 @@ const Quiz = ({ data, setScreen, setResultData, resultData }) => {
 
   const [openModal, setOpenModal] = useState(false);
 
-  function shuffle(arr) {
-    for (let i = arr.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-
-      // Swap elements
-      [arr[i], arr[j]] = [arr[j], arr[i]];
-    }
-    return arr;
-  }
-
   function isSolved(val) {
     for (let i = 0; i < qsolved.length; i++) {
       if (qsolved[i].qno === val) {
@@ -95,8 +85,7 @@ const Quiz = ({ data, setScreen, setResultData, resultData }) => {
       }
     });
 
-    let score =
-      correct * data.correct_answer_marks - incorrect * data.negative_marks;
+    let score = correct - incorrect;
     setResultData({
       count: data.questions_count,
       correct: correct,
@@ -115,7 +104,6 @@ const Quiz = ({ data, setScreen, setResultData, resultData }) => {
     );
 
     if (data.questions.length > 0) {
-      data.questions = shuffle(data.questions);
       setQdata(data.questions[qno]);
     }
 
